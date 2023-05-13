@@ -1,0 +1,32 @@
+.cont{
+    position: relative;
+}
+.cont h3{
+    text-align: center;
+    color: #333F72;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.testimonialCont1, .testimonialCont2, .testimonialCont3{
+    position: absolute;
+    height: 276px;
+    width: 488px;
+}
+
+.testimonialCont1{
+    left: 0;
+}
+.testimonialCont2{
+    right: 0;
+}
+.testimonialCont3{
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+
+.innerCont{
+    height: 440px;
+    margin-top: 40px;
+}

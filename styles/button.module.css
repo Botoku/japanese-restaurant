@@ -1,0 +1,33 @@
+.isFilled{
+    background-color: #E56E0C;
+    color: #fff;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px 0px 15px 0px;
+    padding: 13px 0;
+    transition: all .3s;
+    font-size: 20px;
+
+}
+
+.isNotFilled{
+    background-color: transparent;
+    border: 1px solid #E56E0C ;
+    width: 242px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px 0px 15px 0px;
+    color: #E56E0C;
+    width: 200px;
+    padding: 13px 0;
+    transition: all .3s;
+    font-size: 20px;
+
+
+}
+
+
+.isFilled:hover, .isNotFilled:hover{
+    border-radius: 0px;
+}

@@ -1,0 +1,26 @@
+.heroCont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 837px;
+    margin: 30px auto;
+}
+.heroCont h2 {
+    font-size: 80px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 96px;
+    margin-bottom: 24px;
+}
+.heroCont h2, .heroCont p{
+    color: #333F72
+}
+
+.heroCont p{
+    font-family: 'Satoshi-Variable';
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.heroImg{
+    margin-top: 64px;
+}

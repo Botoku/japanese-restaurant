@@ -1,0 +1,58 @@
+.footer{
+    background-color: #1D2544;
+    margin-top: 40px;
+    padding: 48px;
+ 
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    color: #fff;
+
+}
+.leftCont{
+    font-size: 20px;
+    font-family: 'Hiromisake';
+
+}
+.rightCont{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+
+}
+.middleCont{
+    display: flex;
+    justify-content: space-between;
+    max-width: 440px;
+    font-family: 'Satoshi-Variable';
+}
+
+.listCont{
+    margin-right: 50px;
+}
+
+.listTitle{
+    opacity: .75;
+    font-size: 12px;
+}
+
+.listElement{
+    font-size: 16px;
+}
+.home{
+    font-size: 12px;
+
+}
+
+.iconCont{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
