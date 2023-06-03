@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from '../styles/footer.module.css'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -11,13 +12,17 @@ const Footer = () => {
         </div>
         <div className={classes.middleCont}>
             <div className={classes.listCont}>
-                <p className={classes.home}>Home</p>
+                <Link href="/">
+                    <p className={classes.home}>Home</p>
+                </Link>
             </div>
 
             <div className={classes.listCont}>
-                <p className={classes.listTitle}>
-                    Menu
-                </p>
+                <Link href="/menu">
+                    <p className={classes.listTitle}>
+                        Menu
+                    </p>
+                </Link>
 
                 <p className={classes.listElement}>Sushi</p>
                 <p className={classes.listElement}>Tempura</p>
@@ -27,23 +32,17 @@ const Footer = () => {
             </div>
 
             <div className={classes.listCont}>
-                <p className={classes.listTitle}>
-                    About
-                </p>
+                <Link href="/about">
+                    <p className={classes.listTitle}>
+                        About
+                    </p>
+                </Link>
 
                 <p className={classes.listElement}>Company</p>
                 <p className={classes.listElement}>Team</p>
                 <p className={classes.listElement}>Story</p>
             </div>
 
-            <div className={classes.listCont}>
-                <p className={classes.listTitle}>
-                    Sessions
-                </p>
-
-                <p className={classes.listElement}>Booking</p>
-                <p className={classes.listElement}>Classes</p>
-            </div>
         </div>
         <div className={classes.rightCont}>
             <div className={classes.iconCont}>

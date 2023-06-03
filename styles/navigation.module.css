@@ -16,6 +16,12 @@
     color: #333F72;
     font-weight: 300 ;
 }
+.nameCont a{
+    text-decoration: none;
+}
+.nameCont a:visited{
+    color: #333F72;
+}
 .linksCont {
     display: flex;
 }
@@ -55,4 +61,12 @@
 .icon1, .icon2{
     height: 20px;
     width: 20px;
+}
+
+
+@media(max-width: 400px){
+    
+.iconCont{
+    display: none;
+}
 }

@@ -1,0 +1,100 @@
+.container{
+    position: relative;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: minmax(250px, auto);
+    margin: 20px;
+    grid-auto-flow: dense;
+    grid-gap: 10px;
+
+
+}
+
+
+.box, .box1, .box2, .box3, .box4{
+    border: 2px solid #dfdcd7;
+    font-size: .9rem;
+    padding: 10px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: #333F72;
+    transition: .5s;
+    border-radius: 10px;
+}
+.box:hover, .box1:hover, .box2:hover, .box3:hover, .box4:hover{
+    border: 2px solid #333F72;
+    border-radius: 0px;
+
+}
+
+.box1{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.box2{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.box3{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.box4{
+    grid-column: span 3;
+    grid-row: span 1;
+}
+.content p{
+    font-size: .85rem;
+    margin-top: 10px;
+}
+
+.imgCont{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 250px;
+    aspect-ratio: 1 / 0.6661290322580645;
+    
+}
+
+.image{
+    object-fit: contain;
+}
+
+.container span {
+    font-family: "Hiromisake";
+    color: #333f72;
+    font-weight: 300;
+    display: block;
+  }
+
+
+  .box1 .content, .box4 .content{
+    display: flex;
+    align-items: center;
+  }
+
+  .box2 .content, .box3 .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+ 
+@media (max-width: 991px){
+    .container{
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+        grid-template-rows: minmax(auto, auto);
+    }
+
+    .box, .box1, .box2, .box3, .box4{
+        grid-column: unset;
+        grid-row: unset;
+    }
+
+    .box1 .content, .box4 .content{
+        display: block;
+      }
+}

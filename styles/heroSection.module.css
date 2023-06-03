@@ -24,3 +24,31 @@
 .heroImg{
     margin-top: 64px;
 }
+
+.imgCont{
+    position: relative;
+    width: 736px;
+    height: 461px;
+}
+
+@media (max-width: 767px){
+    .imgCont{
+        width: 368px;
+        height: 230px;
+    } 
+}
+
+
+@media (max-width: 425px){
+    .imgCont{
+        width: 245px;
+        height: 153px;
+    } 
+    .heroCont h2 {
+        font-size: 50px;
+        text-align: center;
+        font-weight: 400;
+        line-height: 66px;
+        margin-bottom: 24px;
+    }
+}

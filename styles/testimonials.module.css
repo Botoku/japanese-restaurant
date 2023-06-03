@@ -30,3 +30,24 @@
     height: 440px;
     margin-top: 40px;
 }
+
+
+@media (max-width: 950px){
+    .innerCont{
+        height: auto;
+    }
+
+    .testimonialCont1, .testimonialCont2, .testimonialCont3{
+        position: relative;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 550px){
+
+    .testimonialCont1, .testimonialCont2, .testimonialCont3{
+        height: 138px;
+        width: 244px;
+        
+    }
+}

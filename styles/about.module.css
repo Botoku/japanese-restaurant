@@ -1,0 +1,26 @@
+.imgCont {
+  position: relative;
+  max-width: 300px;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.firstP {
+  text-align: center;
+}
+
+.aboutCont span {
+  font-family: "Hiromisake";
+  color: #333f72;
+  font-weight: 300;
+}
+
+@media (max-width: 360px) {
+  .imgCont {
+    max-width: 200px;
+    width: 200px;
+    height: 120px;
+  }
+}
