@@ -2,7 +2,7 @@ import HeroSection from '@/components/HeroSection'
 import styles from './page.module.css'
 import Image from 'next/image'
 import Specialities from '@/components/Specialities'
-import Testimonials from '@/components/TEstimonials'
+import Testimonials from '@/components/Testimonials'
 import Footer from '@/components/Footer'
 
 export default function Home() {
